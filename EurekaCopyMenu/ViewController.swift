@@ -8,6 +8,7 @@
 
 import UIKit
 import Eureka
+import LNSEurekaExtras
 
 
 class ViewController: EurekaFormViewController {

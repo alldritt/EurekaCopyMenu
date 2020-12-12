@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Eureka",
+        "repositoryURL": "https://github.com/xmartlabs/Eureka.git",
+        "state": {
+          "branch": null,
+          "revision": "81f3ea3d69dc99f8684b8bce1224908e101c679f",
+          "version": "5.3.2"
+        }
+      },
+      {
+        "package": "LNSEurekaExtras",
+        "repositoryURL": "https://github.com/alldritt/LNSEurekaExtras.git",
+        "state": {
+          "branch": "main",
+          "revision": "22cd1507e7d347217943cb003cb4cb950cacfe90",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

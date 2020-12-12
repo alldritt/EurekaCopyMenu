@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,13 +12,11 @@
 		A54D3EDE24A065F500ACAA24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54D3EDC24A065F500ACAA24 /* Main.storyboard */; };
 		A54D3EE024A065F600ACAA24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54D3EDF24A065F600ACAA24 /* Assets.xcassets */; };
 		A54D3EE324A065F600ACAA24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54D3EE124A065F600ACAA24 /* LaunchScreen.storyboard */; };
-		A5F88BDE24A0688800ABBDFA /* EurekaExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F88BDD24A0688800ABBDFA /* EurekaExtras.swift */; };
-		E213B614D43B96FCBF59A0A5 /* Pods_EurekaCopyMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 358E2C2556CE8E3FCA1864A7 /* Pods_EurekaCopyMenu.framework */; };
+		A5C1637325856AB2009BBE55 /* Eureka in Frameworks */ = {isa = PBXBuildFile; productRef = A5C1637225856AB2009BBE55 /* Eureka */; };
+		A5C1638325856D50009BBE55 /* LNSEurekaExtras in Frameworks */ = {isa = PBXBuildFile; productRef = A5C1638225856D50009BBE55 /* LNSEurekaExtras */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		23E67C8AEAFD0ABA4A71E223 /* Pods-EurekaCopyMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaCopyMenu.release.xcconfig"; path = "Target Support Files/Pods-EurekaCopyMenu/Pods-EurekaCopyMenu.release.xcconfig"; sourceTree = "<group>"; };
-		358E2C2556CE8E3FCA1864A7 /* Pods_EurekaCopyMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaCopyMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54D3ED324A065F500ACAA24 /* EurekaCopyMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EurekaCopyMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54D3ED624A065F500ACAA24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A54D3EDA24A065F500ACAA24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,8 +24,6 @@
 		A54D3EDF24A065F600ACAA24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54D3EE224A065F600ACAA24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54D3EE424A065F600ACAA24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5A537F8AE9CA9FBB83B985E /* Pods-EurekaCopyMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaCopyMenu.debug.xcconfig"; path = "Target Support Files/Pods-EurekaCopyMenu/Pods-EurekaCopyMenu.debug.xcconfig"; sourceTree = "<group>"; };
-		A5F88BDD24A0688800ABBDFA /* EurekaExtras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaExtras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,28 +31,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E213B614D43B96FCBF59A0A5 /* Pods_EurekaCopyMenu.framework in Frameworks */,
+				A5C1638325856D50009BBE55 /* LNSEurekaExtras in Frameworks */,
+				A5C1637325856AB2009BBE55 /* Eureka in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84CFAC1FA67C08A58E78256A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				358E2C2556CE8E3FCA1864A7 /* Pods_EurekaCopyMenu.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		A54D3ECA24A065F500ACAA24 = {
 			isa = PBXGroup;
 			children = (
 				A54D3ED524A065F500ACAA24 /* EurekaCopyMenu */,
 				A54D3ED424A065F500ACAA24 /* Products */,
-				BE9659B10FA93B953C59FD6A /* Pods */,
-				84CFAC1FA67C08A58E78256A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,22 +60,12 @@
 			children = (
 				A54D3ED624A065F500ACAA24 /* AppDelegate.swift */,
 				A54D3EDA24A065F500ACAA24 /* ViewController.swift */,
-				A5F88BDD24A0688800ABBDFA /* EurekaExtras.swift */,
 				A54D3EDC24A065F500ACAA24 /* Main.storyboard */,
 				A54D3EDF24A065F600ACAA24 /* Assets.xcassets */,
 				A54D3EE124A065F600ACAA24 /* LaunchScreen.storyboard */,
 				A54D3EE424A065F600ACAA24 /* Info.plist */,
 			);
 			path = EurekaCopyMenu;
-			sourceTree = "<group>";
-		};
-		BE9659B10FA93B953C59FD6A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A5A537F8AE9CA9FBB83B985E /* Pods-EurekaCopyMenu.debug.xcconfig */,
-				23E67C8AEAFD0ABA4A71E223 /* Pods-EurekaCopyMenu.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,17 +75,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54D3EE724A065F600ACAA24 /* Build configuration list for PBXNativeTarget "EurekaCopyMenu" */;
 			buildPhases = (
-				A2F65EE99E48BD17BDE9EFC5 /* [CP] Check Pods Manifest.lock */,
 				A54D3ECF24A065F500ACAA24 /* Sources */,
 				A54D3ED024A065F500ACAA24 /* Frameworks */,
 				A54D3ED124A065F500ACAA24 /* Resources */,
-				25706291678451113EED3C31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = EurekaCopyMenu;
+			packageProductDependencies = (
+				A5C1637225856AB2009BBE55 /* Eureka */,
+				A5C1638225856D50009BBE55 /* LNSEurekaExtras */,
+			);
 			productName = EurekaCopyMenu;
 			productReference = A54D3ED324A065F500ACAA24 /* EurekaCopyMenu.app */;
 			productType = "com.apple.product-type.application";
@@ -120,7 +99,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Mark Alldritt";
 				TargetAttributes = {
 					A54D3ED224A065F500ACAA24 = {
@@ -137,6 +116,10 @@
 				Base,
 			);
 			mainGroup = A54D3ECA24A065F500ACAA24;
+			packageReferences = (
+				A5C1637125856AB2009BBE55 /* XCRemoteSwiftPackageReference "Eureka" */,
+				A5C1638125856D50009BBE55 /* XCRemoteSwiftPackageReference "LNSEurekaExtras" */,
+			);
 			productRefGroup = A54D3ED424A065F500ACAA24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -159,48 +142,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		25706291678451113EED3C31 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EurekaCopyMenu/Pods-EurekaCopyMenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EurekaCopyMenu/Pods-EurekaCopyMenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EurekaCopyMenu/Pods-EurekaCopyMenu-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A2F65EE99E48BD17BDE9EFC5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EurekaCopyMenu-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		A54D3ECF24A065F500ACAA24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -208,7 +149,6 @@
 			files = (
 				A54D3EDB24A065F500ACAA24 /* ViewController.swift in Sources */,
 				A54D3ED724A065F500ACAA24 /* AppDelegate.swift in Sources */,
-				A5F88BDE24A0688800ABBDFA /* EurekaExtras.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -291,6 +232,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -320,6 +262,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -344,13 +287,13 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		A54D3EE824A065F600ACAA24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5A537F8AE9CA9FBB83B985E /* Pods-EurekaCopyMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -369,7 +312,6 @@
 		};
 		A54D3EE924A065F600ACAA24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E67C8AEAFD0ABA4A71E223 /* Pods-EurekaCopyMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -408,6 +350,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5C1637125856AB2009BBE55 /* XCRemoteSwiftPackageReference "Eureka" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/xmartlabs/Eureka.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.2;
+			};
+		};
+		A5C1638125856D50009BBE55 /* XCRemoteSwiftPackageReference "LNSEurekaExtras" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alldritt/LNSEurekaExtras.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5C1637225856AB2009BBE55 /* Eureka */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5C1637125856AB2009BBE55 /* XCRemoteSwiftPackageReference "Eureka" */;
+			productName = Eureka;
+		};
+		A5C1638225856D50009BBE55 /* LNSEurekaExtras */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5C1638125856D50009BBE55 /* XCRemoteSwiftPackageReference "LNSEurekaExtras" */;
+			productName = LNSEurekaExtras;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A54D3ECB24A065F500ACAA24 /* Project object */;
 }
